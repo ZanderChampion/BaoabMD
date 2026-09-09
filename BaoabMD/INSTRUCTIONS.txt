@@ -1,0 +1,13 @@
+1. To run the program you have to go into the main folder "BaoabMD", then click the directory and type in cmd and then click enter to open cmd at the location of the folder. You can also just use cd to navigate to it.
+
+
+2. Once in terminal you just need to type "node BaoabMD.js" and run it, if there are any errors you probably just have missing dependencies that you need to download.
+
+
+3. Now once it is showing you can put your pdb files in the pdb folder and then use "pdb/input.pdb", replace input with your file name if you want to use a custom one.
+
+
+4. Now run the simulation for however long you want. I recommend a 100/1 ratio so if you do a 1000 step simulation log it every 10 steps to make 100 frames in total.
+
+
+5. Now just wait for it to finish and then your traj.xyz file will apear in the main folder. You can view it with PyMol or OVITO.
