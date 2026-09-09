@@ -25,9 +25,11 @@ const readline = require('readline');
 const os = require('os');
 
 // system units
+// CHARMM standard
 const config = {
   // Constrained X-H bonds to permit a 1 fs step
   dt: 1.0, // time in femtoseconds
+  thermostatRelaxationRate: 100.0, // relaxation rate tau (fs)
   gamma: 0.01, // friction (1/fs) as 1/thermostatRelaxationRate
   targetTemp: 300, // kelvin
   kB: 0.0019872041, // kcal/(mol*k)
