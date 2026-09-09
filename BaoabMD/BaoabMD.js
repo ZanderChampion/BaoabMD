@@ -1,20 +1,8 @@
-/*
-  version: 1.0.0
-  
-  UPDATES(m/d/y): 
-	9/6/2026 - added terminal inputs
-	9/6/2026 - performance fix, replaced object vectors with inline math inside loops
-	9/6/2026 - added angle forces
-	9/6/2026 - fixed issue with temperatures starting at over 1000k
-	9/7/2026 - fixed memory issues
-	9/7/2026 - added multi-threading and amd gpu support (havent tested nvidia)
-	9/8/2026 - spent the entire day fixing issues that were holding back realism and implementing new formulas, bigger update here for realism
-	9/8/2026 - CIC particle-mesh Ewald reciprocal solve plus Ewald real space.  Triclinic cells not supported.
-	9/8/2026 - posting code online
-	
+/*	
   TO DO:
 	- add comments and format code to make it readable
 	- be able to specify trajectory output location and name
+	- round seconds to minutes and minutes to hours in the terminal
 	
 	later:
 		- add xml and other files to get more data about protein
